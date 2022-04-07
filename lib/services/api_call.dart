@@ -4,7 +4,7 @@ import 'package:sky/model/weather.dart';
 import 'package:sky/services/location.dart';
 import 'package:http/http.dart' as http;
 
-const apikey = '50c89aa66f1181a28041fcae3730b9e0';
+const apikey = '';
 class ApiCall {
   Future<Weather> getweatherdata()async{
     Myloction myloction = Myloction();
